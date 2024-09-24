@@ -52,7 +52,7 @@ if args.geo:
         print("\n    * No hay direccion ip, use --ip {ip} --geo\n")
 else:
 
-    print("\n-------\n* Obteniedo su direccion ip Publica.")
+    print("\n-------\n* Obteniendo su direccion ip Publica.")
     ip_result = requests.get(api_ip)
     print(f"    Ip (p) : {ip_result.text}\n-------\n")
     
