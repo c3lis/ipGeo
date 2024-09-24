@@ -26,7 +26,7 @@ api_geolocation = "http://ip-api.com/json/"
 params = argparse.ArgumentParser(description="--help")
 
 
-params.add_argument("--ip", type=str, help="Para saber tu direccion ip (publica).", required=True)
+params.add_argument("--ip", type=str, help="Para saber tu direccion ip (publica).", required=False)
 params.add_argument("--geo", action='store_true', help="Geolocaliza la direccion ip.")
 args = params.parse_args()
 
