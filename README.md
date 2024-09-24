@@ -9,3 +9,6 @@ Geolocaliza la direccion IP desde la terminal.
 * Mi ip publica :
   
       python ipGeo.py
+* Librerias :
+
+      requests signal json argparse
